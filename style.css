@@ -1,0 +1,45 @@
+.flag {
+    width: 400px;
+    height: 240px;
+    border: 1px solid black;
+    margin-bottom: 40px;
+}
+
+/* Indonesia */
+.indonesia .red {
+    background-color: red;
+    height: 50%;
+}
+
+.indonesia .white {
+    background-color: white;
+    height: 50%;
+}
+
+/* Poland */
+.poland .white {
+    background-color: white;
+    height: 50%;
+}
+
+.poland .red {
+    background-color: red;
+    height: 50%;
+}
+
+/* Japan */
+.japan {
+    background-color: white;
+    position: relative;
+}
+
+.japan .circle {
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
